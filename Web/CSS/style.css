@@ -57,3 +57,63 @@ nav ul li#nav_fair a {
 nav ul li#nav_contact a {
  Background-image: url(../images/nav4.png);
 }
+#contents {
+ overflow: hidden;
+}
+
+#main {
+ float: left;
+ width: 570px;
+}
+
+#sub {
+ float: right;
+ width: 230px;
+}
+
+footer {
+ padding-top: 70px;
+}
+
+#main h1 {
+ margin: 0 0 30px 0;
+ padding: 35px 0 35px 65px;
+ font-size 156.25%;
+ background-image: url(../images/bg_h1_head.png),url(../images/bg_h1_bottom.png);
+ background-repeat: no-repeat, no-repeat;
+ background-position: left top, left bottom;
+}
+
+#concept #nav_concept a,
+#plan #nav_plan a,
+#fair #nav_fair a,
+#contact #nav_contact a,
+nav ul li a:hover {
+ background-position: 0 -45px;
+}
+
+.bnr_inner a p img:hover {
+ /* 画像の透明度*/
+ opacity: 0.8;
+}
+
+
+#news ul {
+ list-style-type:none;
+ padding-left:0;
+}
+
+#news ul li {
+ padding: 20px 0 20px 175px;
+ border-bottom:1px dotted #6c5f45;
+ color: #342300;
+ text-indent: -175px;
+}
+
+#news ul li time {
+ display: inline-block;
+ width: 175px;
+ font-weight: bold;
+ color: #6c5f45;
+ text-indent: 0;
+}
